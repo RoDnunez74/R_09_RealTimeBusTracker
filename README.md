@@ -22,9 +22,9 @@ Descargar los archivos del repositorio en una misma carpeta y abrir el archivo B
 ### Road Map
 
 <ol>
-  <il>Marcar cada Autobús con su número mientras esté en transito</il>
-<il>Seleccionar sólo un autobús en particular</il>
-<il>Mostrar el recorrido de forma incremental o sólo la posición en tiempo real</il>
+  <li>Marcar cada Autobús con su número mientras esté en transito</li>
+<li>Seleccionar sólo un autobús en particular</li>
+<li>Mostrar el recorrido de forma incremental o sólo la posición en tiempo real</li>
 </ol>
 
 ### Licencia:
