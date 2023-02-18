@@ -1,5 +1,5 @@
 # Real Time Bus Tracker
-## Rodrigo Núñez Portfolio @ MiT | xPRO
+Rodrigo Núñez Portfolio @ MiT | xPRO
 
 <img src="./asset/readme_bus_rtt.png">
 
