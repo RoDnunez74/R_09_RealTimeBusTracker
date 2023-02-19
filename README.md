@@ -1,7 +1,7 @@
 # Real Time Bus Tracker
 Rodrigo Núñez Portfolio @ MiT | xPRO
 
-<img src="./asset/readme_bus_rtt.png">
+<img src="./img/readme_bus_rtt.png">
 
 ### Descripción del proyecto.
 Este proyecto muestra en un mapa los autobuses de Boston MBTA en su recorrido en tiempo real. 
