@@ -17,14 +17,18 @@ async function getBusLocations(){
     const json = await response.json();
     return json.data;
 }
+let markers = [];
 
 // Creación de markers por cada autobus en ruta. 
 async function Coordenadas(){
+    markers.forEach(marker => marker.remove())
+    markers = []
 const BusesInfo = await getBusLocations();
 BusesInfo.forEach(function(bus){
         const marker = new mapboxgl.Marker().setLngLat([bus.attributes.longitude, bus.attributes.latitude]).addTo(map); 
-                  
+         markers.push(marker);         
     });
 // Se recomienda no disminuir el tiempo por debajo de los 15000, para evitar ser "baneados"
-    setTimeout(Coordenadas, 15000);
+    setTimeout(Coordenadas, 5000);
 }
+
